@@ -1,0 +1,5 @@
+title: Brute Force de Senhas
+id: rule-001
+description: Detecta falhas repetidas de login (SSH)
+threshold: 5
+window_minutes: 10

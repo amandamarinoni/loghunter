@@ -1,0 +1,9 @@
+2025-08-02T10:00:00 server sshd[123]: Failed password for amanda from 192.168.0.9
+2025-08-02T10:02:00 server sshd[123]: Failed password for amanda from 192.168.0.9
+2025-08-02T10:04:00 server sshd[123]: Failed password for amanda from 192.168.0.9
+2025-08-02T10:06:00 server sshd[123]: Failed password for amanda from 192.168.0.9
+2025-08-02T10:08:00 server sshd[123]: Failed password for amanda from 192.168.0.9
+2025-08-02T10:10:00 server sshd[123]: Failed password for amanda from 192.168.0.9
+2025-08-02T10:12:00 server sshd[123]: Failed password for amanda from 192.168.0.9
+2025-08-02T11:20:00 server sshd[473]: Failed password for joao from 10.0.0.1
+2025-08-02T11:24:00 server sshd[473]: Failed password for joao from 10.0.0.1
