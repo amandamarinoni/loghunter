@@ -20,5 +20,8 @@ jobs:
         run: flake8 .
       - name: Security Scan
         run: bandit -r src || true
-      - name: Test
-        run: pytest -q
+      - name: Run tests
+        run: |
+          export PYTHONPATH="$PYTHONPATH:$(pwd)/loghunter"
+          pytest -q
+
