@@ -21,7 +21,6 @@ jobs:
       - name: Security Scan
         run: bandit -r src || true
       - name: Run tests
-        run: |
-          export PYTHONPATH="$PYTHONPATH:$(pwd)/loghunter"
-          pytest -q
+        run: pytest -q
+
 
