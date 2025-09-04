@@ -20,5 +20,7 @@ jobs:
         run: flake8 .
       - name: Security Scan
         run: bandit -r src || true
-      - name: Test
+      - name: Run tests
         run: pytest -q
+
+
